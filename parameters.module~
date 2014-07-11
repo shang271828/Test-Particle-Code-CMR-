@@ -1,0 +1,12 @@
+
+!------------------------1----------------------------------------------------------------------------
+module parameters
+  implicit none
+  real*8,parameter ::b=1.0d0                  !the ratio of the gradient of the magnetic field
+  real*8,parameter ::length=0.0d0             !length between two nulls 
+  real*8,parameter ::ma=3.0d-3                !Magnetic Reynolds Number
+  real*8,parameter ::bz=1.0d0                 !guide field
+  real*8,parameter ::q=1.0d0                  !charge
+end module
+!-------------------------2---------------------------------------------------------------------------
+
